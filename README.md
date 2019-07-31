@@ -2,5 +2,6 @@
 ICDAR Dataset Visualization tool
 
 # Instruction
-1. Unzip dataset.zip
-2. python3 visualize.py
+1. open the directory
+2. run `unzip dataset.zip`
+3. run `python3 visualize.py`
