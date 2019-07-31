@@ -13,7 +13,7 @@ def _string2poly(line):
     line = line.split(',')
     poly = [int(float(p)) for p in line[:8]]
     poly = [(poly[i], poly[i + 1]) for i in range(0, 8, 2)]
-    name = line[-1]
+    name = line[-1].replace("\n","")
     return poly, name
 
 
